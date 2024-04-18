@@ -1,0 +1,1 @@
+import{j as e}from"./app-Cnaq85K1.js";function i({className:o="",disabled:t,children:r,...n}){return e.jsx("button",{...n,className:`rounded-md bg-gray-700 px-4 py-2 font-bold text-white hover:bg-blue-700 transition ease-in-out duration-150 ${t&&"opacity-25"} `+o,disabled:t,children:r})}export{i as P};

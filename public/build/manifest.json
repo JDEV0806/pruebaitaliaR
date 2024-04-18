@@ -1,0 +1,440 @@
+{
+  "_Dropdown-B_uZrlAY.js": {
+    "file": "assets/Dropdown-B_uZrlAY.js",
+    "name": "Dropdown",
+    "imports": [
+      "resources/js/app.jsx",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "_GuestLayout-qsd8ttcN.js": {
+    "file": "assets/GuestLayout-qsd8ttcN.js",
+    "name": "GuestLayout",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_InputLabel-DZ3FYnLA.js": {
+    "file": "assets/InputLabel-DZ3FYnLA.js",
+    "name": "InputLabel",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_PrimaryButton-BtF_FRMS.js": {
+    "file": "assets/PrimaryButton-BtF_FRMS.js",
+    "name": "PrimaryButton",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_ResponsiveNavLink-Cyk172cX.js": {
+    "file": "assets/ResponsiveNavLink-Cyk172cX.js",
+    "name": "ResponsiveNavLink",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_TextInput-pKjXpVUH.js": {
+    "file": "assets/TextInput-pKjXpVUH.js",
+    "name": "TextInput",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_transition-B5e9LNl1.js": {
+    "file": "assets/transition-B5e9LNl1.js",
+    "name": "transition",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Auth/ConfirmPassword.jsx": {
+    "file": "assets/ConfirmPassword-CvzbN_sb.js",
+    "name": "ConfirmPassword",
+    "src": "resources/js/Pages/Auth/ConfirmPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-qsd8ttcN.js",
+      "_TextInput-pKjXpVUH.js",
+      "_InputLabel-DZ3FYnLA.js",
+      "_PrimaryButton-BtF_FRMS.js"
+    ]
+  },
+  "resources/js/Pages/Auth/ForgotPassword.jsx": {
+    "file": "assets/ForgotPassword-DCVBO6e4.js",
+    "name": "ForgotPassword",
+    "src": "resources/js/Pages/Auth/ForgotPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-qsd8ttcN.js",
+      "_TextInput-pKjXpVUH.js",
+      "_PrimaryButton-BtF_FRMS.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Login.jsx": {
+    "file": "assets/Login-w7uHt4R5.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Auth/Login.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-qsd8ttcN.js",
+      "_TextInput-pKjXpVUH.js",
+      "_InputLabel-DZ3FYnLA.js",
+      "_PrimaryButton-BtF_FRMS.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Register.jsx": {
+    "file": "assets/Register-BpxzEHxx.js",
+    "name": "Register",
+    "src": "resources/js/Pages/Auth/Register.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-qsd8ttcN.js",
+      "_TextInput-pKjXpVUH.js",
+      "_InputLabel-DZ3FYnLA.js",
+      "_PrimaryButton-BtF_FRMS.js"
+    ]
+  },
+  "resources/js/Pages/Auth/ResetPassword.jsx": {
+    "file": "assets/ResetPassword-DHYxCF9x.js",
+    "name": "ResetPassword",
+    "src": "resources/js/Pages/Auth/ResetPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-qsd8ttcN.js",
+      "_TextInput-pKjXpVUH.js",
+      "_InputLabel-DZ3FYnLA.js",
+      "_PrimaryButton-BtF_FRMS.js"
+    ]
+  },
+  "resources/js/Pages/Auth/VerifyEmail.jsx": {
+    "file": "assets/VerifyEmail-Cp5EzlEC.js",
+    "name": "VerifyEmail",
+    "src": "resources/js/Pages/Auth/VerifyEmail.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-qsd8ttcN.js",
+      "_PrimaryButton-BtF_FRMS.js"
+    ]
+  },
+  "resources/js/Pages/Index.jsx": {
+    "file": "assets/Index-Bcz6j9Mf.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_ResponsiveNavLink-Cyk172cX.js",
+      "resources/js/Pages/P_PVentas/Dashboard.jsx",
+      "resources/js/Pages/P_PVentas/ListaDePrecios.jsx",
+      "resources/js/Pages/P_PVentas/Proyectos.jsx",
+      "resources/js/Pages/P_PVentas/Folios.jsx",
+      "resources/js/Pages/P_PVentas/Clientes.jsx",
+      "resources/js/Pages/P_PVentas/Asesor.jsx",
+      "resources/js/Pages/P_PVentas/Productos.jsx",
+      "resources/js/Pages/P_PVentas/DetallesYProductos.jsx",
+      "resources/js/Pages/P_PVentas/ImagenesYFotos.jsx",
+      "resources/js/Pages/P_PVentas/VideosArmandoSilleria.jsx",
+      "resources/js/Pages/P_PVentas/Comercializacion.jsx",
+      "resources/js/Pages/P_PVentas/Oficial.jsx",
+      "resources/js/Pages/P_PVentas/Complementos.jsx",
+      "resources/js/Pages/P_PVentas/Inventarios.jsx",
+      "resources/js/Pages/P_PVentas/Top50.jsx",
+      "resources/js/Pages/P_PVentas/ExistenciasGenerales.jsx",
+      "resources/js/Pages/P_PVentas/ExistenciasSilleria.jsx",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/Asesor.jsx": {
+    "file": "assets/Asesor-wL0BWUmJ.js",
+    "name": "Asesor",
+    "src": "resources/js/Pages/P_PVentas/Asesor.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/Clientes.jsx": {
+    "file": "assets/Clientes-DYZXXOG0.js",
+    "name": "Clientes",
+    "src": "resources/js/Pages/P_PVentas/Clientes.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/Comercializacion.jsx": {
+    "file": "assets/Comercializacion-1oDYAlfR.js",
+    "name": "Comercializacion",
+    "src": "resources/js/Pages/P_PVentas/Comercializacion.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/Complementos.jsx": {
+    "file": "assets/Complementos-B_83EVDZ.js",
+    "name": "Complementos",
+    "src": "resources/js/Pages/P_PVentas/Complementos.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/Dashboard.jsx": {
+    "file": "assets/Dashboard-BezG2cJr.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/P_PVentas/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/DetallesYProductos.jsx": {
+    "file": "assets/DetallesYProductos-BGWUv3yX.js",
+    "name": "DetallesYProductos",
+    "src": "resources/js/Pages/P_PVentas/DetallesYProductos.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/ExistenciasGenerales.jsx": {
+    "file": "assets/ExistenciasGenerales-Sh8DoG3Q.js",
+    "name": "ExistenciasGenerales",
+    "src": "resources/js/Pages/P_PVentas/ExistenciasGenerales.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/ExistenciasSilleria.jsx": {
+    "file": "assets/ExistenciasSilleria-Cafl3zcU.js",
+    "name": "ExistenciasSilleria",
+    "src": "resources/js/Pages/P_PVentas/ExistenciasSilleria.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/Folios.jsx": {
+    "file": "assets/Folios-Bx-9Iw6n.js",
+    "name": "Folios",
+    "src": "resources/js/Pages/P_PVentas/Folios.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/ImagenesYFotos.jsx": {
+    "file": "assets/ImagenesYFotos-BX8oETEh.js",
+    "name": "ImagenesYFotos",
+    "src": "resources/js/Pages/P_PVentas/ImagenesYFotos.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/Inventarios.jsx": {
+    "file": "assets/Inventarios-Cx1q7FQt.js",
+    "name": "Inventarios",
+    "src": "resources/js/Pages/P_PVentas/Inventarios.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/ListaDePrecios.jsx": {
+    "file": "assets/ListaDePrecios-BgcFSRHS.js",
+    "name": "ListaDePrecios",
+    "src": "resources/js/Pages/P_PVentas/ListaDePrecios.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/Oficial.jsx": {
+    "file": "assets/Oficial-BbCzJYwg.js",
+    "name": "Oficial",
+    "src": "resources/js/Pages/P_PVentas/Oficial.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/Productos.jsx": {
+    "file": "assets/Productos-CnYc2Cmx.js",
+    "name": "Productos",
+    "src": "resources/js/Pages/P_PVentas/Productos.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/Proyectos.jsx": {
+    "file": "assets/Proyectos-BT3QmUoK.js",
+    "name": "Proyectos",
+    "src": "resources/js/Pages/P_PVentas/Proyectos.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/Top50.jsx": {
+    "file": "assets/Top50-B2Ul9L2p.js",
+    "name": "Top50",
+    "src": "resources/js/Pages/P_PVentas/Top50.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/P_PVentas/VideosArmandoSilleria.jsx": {
+    "file": "assets/VideosArmandoSilleria-DL_EiWjN.js",
+    "name": "VideosArmandoSilleria",
+    "src": "resources/js/Pages/P_PVentas/VideosArmandoSilleria.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Profile/Edit.jsx": {
+    "file": "assets/Edit-CxZjNUqf.js",
+    "name": "Edit",
+    "src": "resources/js/Pages/Profile/Edit.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Dropdown-B_uZrlAY.js",
+      "_ResponsiveNavLink-Cyk172cX.js",
+      "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx",
+      "_transition-B5e9LNl1.js",
+      "_TextInput-pKjXpVUH.js",
+      "_InputLabel-DZ3FYnLA.js",
+      "_PrimaryButton-BtF_FRMS.js"
+    ]
+  },
+  "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx": {
+    "file": "assets/DeleteUserForm-xU77evzz.js",
+    "name": "DeleteUserForm",
+    "src": "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_TextInput-pKjXpVUH.js",
+      "_InputLabel-DZ3FYnLA.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx": {
+    "file": "assets/UpdatePasswordForm-CA27t_tE.js",
+    "name": "UpdatePasswordForm",
+    "src": "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_TextInput-pKjXpVUH.js",
+      "_InputLabel-DZ3FYnLA.js",
+      "_PrimaryButton-BtF_FRMS.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx": {
+    "file": "assets/UpdateProfileInformationForm-ml1C5oHe.js",
+    "name": "UpdateProfileInformationForm",
+    "src": "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_TextInput-pKjXpVUH.js",
+      "_InputLabel-DZ3FYnLA.js",
+      "_PrimaryButton-BtF_FRMS.js",
+      "_transition-B5e9LNl1.js"
+    ]
+  },
+  "resources/js/Pages/Welcome.jsx": {
+    "file": "assets/Welcome-ASma_u-N.js",
+    "name": "Welcome",
+    "src": "resources/js/Pages/Welcome.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-Cnaq85K1.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Auth/ConfirmPassword.jsx",
+      "resources/js/Pages/Auth/ForgotPassword.jsx",
+      "resources/js/Pages/Auth/Login.jsx",
+      "resources/js/Pages/Auth/Register.jsx",
+      "resources/js/Pages/Auth/ResetPassword.jsx",
+      "resources/js/Pages/Auth/VerifyEmail.jsx",
+      "resources/js/Pages/Index.jsx",
+      "resources/js/Pages/P_PVentas/Asesor.jsx",
+      "resources/js/Pages/P_PVentas/Clientes.jsx",
+      "resources/js/Pages/P_PVentas/Comercializacion.jsx",
+      "resources/js/Pages/P_PVentas/Complementos.jsx",
+      "resources/js/Pages/P_PVentas/Dashboard.jsx",
+      "resources/js/Pages/P_PVentas/DetallesYProductos.jsx",
+      "resources/js/Pages/P_PVentas/ExistenciasGenerales.jsx",
+      "resources/js/Pages/P_PVentas/ExistenciasSilleria.jsx",
+      "resources/js/Pages/P_PVentas/Folios.jsx",
+      "resources/js/Pages/P_PVentas/ImagenesYFotos.jsx",
+      "resources/js/Pages/P_PVentas/Inventarios.jsx",
+      "resources/js/Pages/P_PVentas/ListaDePrecios.jsx",
+      "resources/js/Pages/P_PVentas/Oficial.jsx",
+      "resources/js/Pages/P_PVentas/Productos.jsx",
+      "resources/js/Pages/P_PVentas/Proyectos.jsx",
+      "resources/js/Pages/P_PVentas/Top50.jsx",
+      "resources/js/Pages/P_PVentas/VideosArmandoSilleria.jsx",
+      "resources/js/Pages/Profile/Edit.jsx",
+      "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx",
+      "resources/js/Pages/Welcome.jsx"
+    ],
+    "css": [
+      "assets/app-DjoHtbhO.css"
+    ]
+  }
+}
