@@ -36,6 +36,11 @@ export default function Authenticated({ user, header, children }) {
         console.log("URL DE VISTA DESTINO: " + valor);
 
         setSelectedView(valor);
+
+        if (valor === "listaP") {
+            window.open('https://ventas.lineaitalia.mx/dym/Lista%20de%20Precios%20Septiembre%202023_VENTA%20DIRECTA.pdf', '_blank');
+            setSelectedView("index");
+        }
     };
 
     const handleAClickAplicativos = (valor) => {
