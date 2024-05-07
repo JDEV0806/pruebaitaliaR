@@ -21,7 +21,8 @@ import Inventarios from "@/Pages/P_PVentas/Inventarios";
 import ConsultarTOP from "@/Pages/P_PVentas/Top50";
 import ConsultarEG from "@/Pages/P_PVentas/ExistenciasGenerales";
 import ConsultarES from "@/Pages/P_PVentas/ExistenciasSilleria";
-
+import VideosS from "@/Pages/P_PVentas/VideosSilleria";
+import Usuarios from "@/Pages/P_PVentas/Usuarios";
 export default function Authenticated({ user, header, children }) {
     const priv = JSON.parse(user.priv);
 
@@ -37,9 +38,124 @@ export default function Authenticated({ user, header, children }) {
 
         setSelectedView(valor);
 
-        if (valor === "listaP") {
-            window.open('https://ventas.lineaitalia.mx/dym/Lista%20de%20Precios%20Septiembre%202023_VENTA%20DIRECTA.pdf', '_blank');
-            setSelectedView("index");
+
+        switch (valor) {
+            case "listaP":
+                window.open('https://ventas.lineaitalia.mx/dym/Lista%20de%20Precios%20Septiembre%202023_VENTA%20DIRECTA.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "FormatoRe":
+                window.open('https://ventas.lineaitalia.mx/dym/24%20BC%20FormatodeRentabilidadVDirecta.xlsx', '_blank');
+                setSelectedView("index");
+                break;
+            case "CotizadorEn":
+                window.open('https://ventas.lineaitalia.mx/dym/Catalogo2023web.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "CotizadorAr":
+                window.open('https://ventas.lineaitalia.mx/dym/Catalogo2023web.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "Catalogo2023":
+                window.open('https://ventas.lineaitalia.mx/dym/Catalogo2023web.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "MuestrarioMa":
+                window.open('https://ventas.lineaitalia.mx/dym/muestrario2023.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "FolletoPro":
+                window.open('https://ventas.lineaitalia.mx/dym/FolletoProspeccion_web.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "FolletoTop50":
+                window.open('https://ventas.lineaitalia.mx/dym/CatálogoTop50Marzo2022.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "CurriculumPdf":
+                window.open('https://ventas.lineaitalia.mx/dym/SEMBLANZA CORPORATIVA 2024.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "CurriculumPdfIn":
+                window.open('https://ventas.lineaitalia.mx/dym/cvingles.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "CurriculumEd":
+                window.open('https://ventas.lineaitalia.mx/dym/cv.pptx', '_blank');
+                setSelectedView("index");
+                break;
+            case "CartaMe":
+                window.open('https://ventas.lineaitalia.mx/dym/', '_blank');
+                setSelectedView("index");
+                break;
+            case "SilleríaGeneral":
+                window.open('https://ventas.lineaitalia.mx/dym/CapacitacionSilleria2021.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "Sillería2023":
+                window.open('https://ventas.lineaitalia.mx/dym/capacitacion_silleria_2022.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "Vasari":
+                window.open('https://ventas.lineaitalia.mx/dym/CapacitacionVASARI.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "LineaItalia":
+                window.open('https://ventas.lineaitalia.mx/dym/CapacitacionITALIA.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "i-Work":
+                window.open('https://ventas.lineaitalia.mx/dym/CapacitacionI-WORK.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "Seven":
+                window.open('https://ventas.lineaitalia.mx/dym/CapacitacionSEVEN.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "E-Link":
+                window.open('https://ventas.lineaitalia.mx/dym/CapacitacionE-LINK.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "Urban":
+                window.open('https://ventas.lineaitalia.mx/dym/CapacitacionURBAN.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "Stark":
+                window.open('https://ventas.lineaitalia.mx/dym/CapacitacionSTARK.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "Wellness":
+                window.open('https://ventas.lineaitalia.mx/dym/CapacitacionWELLNESS.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "Attesa":
+                window.open('https://ventas.lineaitalia.mx/dym/CapacitacionATTESA.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "GeneradorSKU":
+                window.open('https://ventas.lineaitalia.mx/dym/AnzioSku.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "MaterialAn":
+                window.open('https://ventas.lineaitalia.mx/dym/AnzioSku.pdf', '_blank');
+                setSelectedView("index");
+                break;
+            case "LayoutBasic":
+                window.open('https://ventas.lineaitalia.mx/dym/basic.pptx', '_blank');
+                setSelectedView("index");
+                break;
+            case "LayoutMid":
+                window.open('https://ventas.lineaitalia.mx/dym/mid.pptx', '_blank');
+                setSelectedView("index");
+                break;
+            case "LayoutTop":
+                window.open('https://ventas.lineaitalia.mx/dym/top.pptx', '_blank');
+                setSelectedView("index");
+                break;
+            default:
+            
+                // Código por defecto
+                break;
         }
     };
 
@@ -54,14 +170,7 @@ export default function Authenticated({ user, header, children }) {
 
     useEffect(() => {
         // Realizar la solicitud HTTP para obtener los datos de aplicativos
-        fetch("/api/PVenta")
-            .then((response) => response.json())
-            .then((data) => {
-                setAplicativos(data);
-            })
-            .catch((error) => {
-                console.error("Error al obtener datos de ventas:", error);
-            });
+
         // Realizar la solicitud HTTP para obtener los datos de ventas
         fetch("/api/v_pventas")
             .then((response) => response.json())
@@ -73,12 +182,7 @@ export default function Authenticated({ user, header, children }) {
             });
     }, []);
 
-    useEffect(() => {
-        fetch(`/api/user/${user.id}`)
-            .then((response) => response.json())
-            .then((data) => console.log(data))
-            .catch((error) => console.error("Error:", error));
-    }, []);
+
 
     return (
         <div className="max-w-full min-h-screen bg-gray-100">
@@ -229,7 +333,7 @@ export default function Authenticated({ user, header, children }) {
                     </div>
                 </header>
             )}
-            <div className="flex min-h-screen bg-gray-200">
+            <div className="flex min-h-screen" style={{backgroundColor: '#ecf0f5'}}>
                 <div className="flex flex-col w-auto bg-white">
                     <div className="flex-1 overflow-y-auto">
                         <h1 className="border-gray-60 border-b p-2 mt-3 font-bold text-xs">
@@ -295,9 +399,9 @@ export default function Authenticated({ user, header, children }) {
                 <div className="flex flex-col flex-1">
                     <div className="p-4">
                         <main>
-                            {selectedView === "index" && <Index />}
-                            {selectedView === "listaP" && <ListaP />}
-                            {selectedView === "proyectos" && <Proyectos />}
+                            {selectedView === "index" && <Index />} 
+                            {selectedView === "listaP" && <ListaP />} 
+                            {selectedView === "proyectos" && <Proyectos />}  
                             {selectedView === "folios" && <Folios />}
                             {selectedView === "clientes" && <Clientes />}
                             {selectedView === "asesor" && <Asesor />}
@@ -308,7 +412,7 @@ export default function Authenticated({ user, header, children }) {
                             {selectedView === "comercializacion" && (
                                 <Comercializacion />
                             )}
-                            {selectedView === "oficial" && <Oficial />}
+                            {selectedView === "oficial" && <Oficial name={user.name} />} 
                             {selectedView === "complementos" && (
                                 <Complementos />
                             )}
@@ -318,6 +422,8 @@ export default function Authenticated({ user, header, children }) {
                             )}
                             {selectedView === "consultarEG" && <ConsultarEG />}
                             {selectedView === "consultarES" && <ConsultarES />}
+                            {selectedView === "VideosS" && <VideosS />}
+                            {selectedView === "Usuarios" && <Usuarios />}
                         </main>
                     </div>
                 </div>
