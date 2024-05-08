@@ -59,7 +59,7 @@ Route::put('/editUser/{id}', function (Request $request, $id) {
         $user->email = $request->input('correo');
         $user->nomina = $request->input('nomina');
         $user->usuario = $request->input('usuario');
-        $user->password = $request->input('contrasena');
+        // $user->password = $request->input('contrasena');
         $user->idDepartamento = $request->input('departamento');
         $user->idPuesto = $request->input('puesto');
         $user->priv = json_encode($request->input('priv')); // Guarda el JSON como una cadena

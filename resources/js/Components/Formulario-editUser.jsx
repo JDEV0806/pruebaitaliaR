@@ -1,15 +1,17 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-function FormularioUsuario({ isOpen, onClose, children }) {
+function FormularioUsuarioEditar({ isOpen, onClose, children }) {
     // if (!isOpen) {
     //     return null;
+    // }
+    // Aquí va el código de tu formulario
 
     return (
         <div
             onClick={onClose}
             className={`fixed inset-0 flex justify-center items-center transition-colors z-10 ${
-                isOpen ? "visible bg-black/20" : "invisible"
+                isOpen ? "visible" : "invisible"
             }`}
         >
             <div
@@ -24,4 +26,4 @@ function FormularioUsuario({ isOpen, onClose, children }) {
     );
 }
 
-export default FormularioUsuario;
+export default FormularioUsuarioEditar;

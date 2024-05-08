@@ -1,0 +1,1 @@
+import{j as r}from"./app-HIpIFBPn.js";import"./Dropdown-Cbzi5O08.js";import"./autoprefixer-BB7S7lhs.js";import"./transition-BPnU_zSt.js";function n({auth:t}){return r.jsx("iframe",{title:"Desarrollo de Contenido Login",height:"1000px",width:"100%",src:"https://ranking.lineaitalia.net/ranking.php",frameborder:"0",allowFullScreen:"true"})}export{n as default};
